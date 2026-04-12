@@ -11,6 +11,8 @@ elif operation == "sub":
     result = num1 - num2
 elif operation == "mul":
     result = num1 * num2
+elif operation == "div":
+    result = num1 / num2
 else:
     print("Invalid operation")
     sys.exit()
